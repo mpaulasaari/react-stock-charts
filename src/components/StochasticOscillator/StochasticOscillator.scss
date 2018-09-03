@@ -1,0 +1,32 @@
+.StochasticOscillator {
+
+  &-signal-up circle {
+    fill: $red;
+    stroke-width: 0;
+  }
+
+  &-signal-down circle {
+    fill: $green;
+    stroke-width: 0;
+  }
+
+  &-fullD {
+    path {
+      stroke: $red;
+    }
+
+    + .recharts-active-dot circle {
+      fill: $red;
+    }
+  }
+
+  &-fullK {
+    path {
+      stroke: $black;
+    }
+
+    + .recharts-active-dot circle {
+      fill: $black;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.CandleStick {
+  &.up {
+    .CandleStick-openClose,
+    .CandleStick-highLow {
+      fill: $green;
+      stroke: $green;
+    }
+  }
+
+  &.down {
+    .CandleStick-openClose,
+    .CandleStick-highLow {
+      fill: $red;
+      stroke: $red;
+    }
+  }
+}

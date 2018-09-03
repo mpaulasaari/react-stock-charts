@@ -1,0 +1,38 @@
+.MACD {
+
+  &-signal-up circle {
+    fill: $green;
+    stroke-width: 0;
+  }
+
+  &-signal-down circle {
+    fill: $red;
+    stroke-width: 0;
+  }
+
+  &-line1 {
+    path {
+      stroke: $black;
+    }
+
+    + .recharts-active-dot circle {
+      fill: $black;
+    }
+  }
+
+  &-line2 {
+    path {
+      stroke: $red;
+    }
+
+    + .recharts-active-dot circle {
+      fill: $red;
+    }
+  }
+
+  &-bar {
+    path {
+      fill: $grey;
+    }
+  }
+}

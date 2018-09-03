@@ -1,0 +1,13 @@
+@import './colors.scss';
+
+html {
+  height: 100%;
+  font-family: Arial, Helvetica;
+  font-size: 13px;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: $white;
+}

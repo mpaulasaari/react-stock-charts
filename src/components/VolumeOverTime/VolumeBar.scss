@@ -1,0 +1,15 @@
+.VolumeBar {
+  &.up {
+    .bar {
+      fill: $green;
+      stroke: $green;
+    }
+  }
+
+  &.down {
+    .bar {
+      fill: $red;
+      stroke: $red;
+    }
+  }
+}

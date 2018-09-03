@@ -1,0 +1,7 @@
+.recharts-wrapper:hover {
+  cursor: crosshair !important;
+
+  .recharts-tooltip-wrapper {
+    visibility: visible !important;
+  }
+}

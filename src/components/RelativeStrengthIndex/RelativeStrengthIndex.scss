@@ -1,0 +1,32 @@
+.RelativeStrengthIndex {
+
+  &-signal-up circle {
+    fill: $red;
+    stroke-width: 0;
+  }
+
+  &-signal-down circle {
+    fill: $green;
+    stroke-width: 0;
+  }
+
+  &-line1 {
+    path {
+      stroke: $purple;
+    }
+
+    + .recharts-active-dot circle {
+      fill: $purple;
+    }
+  }
+
+  &-line2 {
+    path {
+      stroke: $blue;
+    }
+
+    + .recharts-active-dot circle {
+      fill: $blue;
+    }
+  }
+}
