@@ -53,12 +53,11 @@ viewing large datasets.*
 - Hover over the charts to view more details and change the zoom level using the
 slider below the **SMA** chart.
 
-
 ## Authors
 
-- Mika Paulasaari - [github.com/mpaulasaari](https://github.com/mpaulasaari/)
-
+* **Mika Paulasaari** - [mpaulasaari](github.com/mpaulasaari)
 
 ## License
 
-- MIT (see [LICENSE.md](LICENSE.md))
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md)
+file for details
