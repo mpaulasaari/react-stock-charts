@@ -1,7 +1,7 @@
 # React Stock Charts
 
 Collection of common stock charts created with [React](https://reactjs.org/),
-[React-Create-App](https://github.com/facebook/create-react-app) and
+[Create-React-App](https://github.com/facebook/create-react-app) and
 [Recharts](http://recharts.org/). This is still *work in progress*, so any
 of the charts or data might not be correct or final.
 
