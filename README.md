@@ -13,8 +13,8 @@ development and testing purposes.
 
 ### Prerequisites
 
-- Running this code depends on Node.js. If you don't have it installed
-[download it here](https://nodejs.org/en/).
+- Running this code depends on Node.js and Yarn. If you don't have them installed,
+you can see how to install them here: [Node](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/en/docs/install).
 
 - The data is fetched from [Alpha Advantage](https://www.alphavantage.co/) and
 requires an API key for more frequent API calls. You can test the application
