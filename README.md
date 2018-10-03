@@ -1,7 +1,7 @@
 # React Stock Charts
 
 Collection of common stock charts created with [React](https://reactjs.org/),
-[React-Create-App](https://github.com/facebook/create-react-app) and
+[Create-React-App](https://github.com/facebook/create-react-app) and
 [Recharts](http://recharts.org/). This is still *work in progress*, so any
 of the charts or data might not be correct or final.
 
@@ -13,8 +13,8 @@ development and testing purposes.
 
 ### Prerequisites
 
-- Running this code depends on Node.js. If you don't have it installed
-[download it here](https://nodejs.org/en/).
+- Running this code depends on Node.js and Yarn. If you don't have them installed,
+you can see how to install them here: [Node](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/en/docs/install).
 
 - The data is fetched from [Alpha Advantage](https://www.alphavantage.co/) and
 requires an API key for more frequent API calls. You can test the application
@@ -53,12 +53,11 @@ viewing large datasets.*
 - Hover over the charts to view more details and change the zoom level using the
 slider below the **SMA** chart.
 
-
 ## Authors
 
-- Mika Paulasaari - [github.com/mpaulasaari](https://github.com/mpaulasaari/)
-
+* **Mika Paulasaari** - [mpaulasaari](github.com/mpaulasaari)
 
 ## License
 
-- MIT (see **LICENSE.md**)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md)
+file for details
